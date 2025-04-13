@@ -1,9 +1,8 @@
 ---
-title: Playing games against ourselves
-excerpt: In recent years, the way we work has undergone a significant transformation, largely due to advancements in technology and changing attitudes toward work-life balance. One of the most notable changes has been the rise of remote work, allowing employees to work from the comfort of their own homes.
-publishDate: 'Feb 9 2025'
+title: Playing Games Against Ourselves
+excerpt: In recent years, global geopolitics has started to resemble a game no game designer would be proud of. The power play reflects deeper cognitive patterns, ultimately driving a zero-sum logic where collective resources are overexploited, and no one truly wins. A tragedy of the commons on a planetary scale—finite, flawed, and unwinnable.
+publishDate: 'Feb 13 2025'
 tags:
-  - Guide
 seo:
   image:
     src: '/playing-chess-against-ourselves.png'
@@ -12,7 +11,9 @@ seo:
 
 ![A person playing chess against themself](/playing-chess-against-ourselves.png)
 
-## There is a game Sid Meyer would never release
+## In recent years, global geopolitics has started to resemble a game no game designer would be proud of. Foreign powers like the U.S. and China leverage economic and political strategies to secure resources and influence, often at the expense of global unity and stability. 
+
+There is a game Sid Meyer would never release. We are playing it as we speak.
 
 Right now, the largest global military force pressures Ukraine to sign deals giving US companies preferential access to Ukraine's critical minerals and natural resources. AfD, a far-right EU-sceptic party is set for a strong second place in the German election. China continues to invest in Europe through the Belt and Road Project, seeking ownership of strategic assets in order to secure its geographical presence in strategic locations.
 

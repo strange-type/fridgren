@@ -1,42 +1,37 @@
 ---
-title: About
+title: About Me
 seo:
   title: About Me
   description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
   image:
-    src: '/about.jpeg'
-    alt: A person sitting at a desk in front of a computer
+    src: '/hero.jpg'
+    alt: A photo of Daniel Fridgren
 ---
 
-![Alt text for image](/hero.jpg)
+![A photo of Daniel Fridgrene](/hero.jpg)
 
 
-## Ethan Donovan - Web Developer based in Estonia
+## Fusing two decades of hands-on expertise with lateral thinking and heart.
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+I am a creator who provide expertise in areas ranging from digital product processes, strategy and innovation to UX- and service design.
 
-## Skills and Expertise
+Through my consulting studio, I help my clients craft what’s new by mapping, reframing, prototyping and strategic design. I guide my clients with heart through their digital evolution, helping them create tangible value at all touchpoints. 
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+I have spent my last few years coaching and leading, infusing a design mindset as a natural, integrated part in organizations. I have about 20 years of experience in various design roles, mostly in hands-on design work, but also engaging people from different disciplines, unlocking the capabilities of mixed teams and tuning org level processes and strategies accordingly. Big picture thinking, but with feet on the ground.
 
-## Innovation and Problem-Solving
+## On a personal level
+I am a father of three. I tend to see patterns and connect the seemingly unrelated. I am prone to use my intuition. I often find myself filled with awe and wonder. 
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
+I value people who are willing to throw themselves to openness and have made some progress in their awareness journey. I am not afraid of challenging existing structures. You might want to classify me as neurodivergent. I thrive in fringe environments driven by heart and curiosity.
 
-## Global Perspective, Local Impact
+Areas of interest includes but is not limited to psychology, complexity, emergence, mind, biology/biomimicry, swarms, play, macro trends/economics, poetry, perspective shifting. I tend to think of ecologies of ideas, rather than domains.
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+I believe we have a responsibility as human beings. You, me – we are here for a glimpse of time. But we *do* have agency. Aspire for wisdom to pair it with, and we can talk about **true** impact. I'd love to be in the company of those who share this aspiration.
 
-## Continuous Learning
-
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
-
-## Collaboration and Communication
-
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
+Just like you - fragmented and imperfect, enough and beautiful - what's being shared on LinkedIn can ever just capture the tiniest fraction of us.
 
 ## Get in Touch
 
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
+Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat.
 
 _Let's build something amazing together!_

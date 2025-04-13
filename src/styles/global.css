@@ -9,16 +9,22 @@
 
 :root {
     --text-main: #171717;
-    --bg-main: #f2f1ec;
-    --bg-muted: #eae9e1;
+    --bg-main: #f5f4f1;
+    --bg-muted: #f2f1ec;
     --border-main: #171717;
 }
-html.dark {
-    --text-main: #f2f1ec;
-    --bg-main: #171717;
-    --bg-muted: #242424;
-    --border-main: #f2f1ec;
+
+
+/* Dark mode styles using media query */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-main: #f5f4f1;
+        --bg-main: #171717;
+        --bg-muted: #242424;
+        --border-main: #f5f4f1;
+        }
 }
+
 
 /* Cyan */
 /*
