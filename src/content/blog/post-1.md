@@ -3,6 +3,7 @@ title: Playing Games Against Ourselves
 excerpt: In recent years, global geopolitics has started to resemble a game no game designer would be proud of. The power play reflects deeper cognitive patterns, ultimately driving a zero-sum logic where collective resources are overexploited, and no one truly wins. A tragedy of the commons on a planetary scale—finite, flawed, and unwinnable.
 publishDate: 'Feb 13 2025'
 tags:
+- Thoughts
 seo:
   image:
     src: '/playing-chess-against-ourselves.png'

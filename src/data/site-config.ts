@@ -82,7 +82,7 @@ const siteConfig: SiteConfig = {
             src: '/hero.jpg',
             alt: 'An image of Daniel Fridgren',
         },
-        text: "I am a creator who provide expertise in areas ranging from digital product processes, strategy and innovation to UX- and service design. Through my consulting studio, I help my clients craft what’s new by mapping, reframing, prototyping and strategic design. By fusing design expertise and life experience with lateral, big-picture thinking, I guide my clients with heart through their digital evolution, helping them create tangible value at all touchpoints. You can find me on <a href='https://www.linkedin.com/in/fridgren/'>Linkedin</a> and <a href='https://twitter.com/fridgren'>Twitter/X</a>.",
+        text: "I am a creator who provide expertise in areas ranging from digital product processes, strategy and innovation to UX- and service design. Through my consulting studio, I help my clients craft what’s new by mapping, reframing, prototyping and strategic design. By fusing design expertise and life experience with lateral, big-picture thinking, I guide my clients with heart through their digital evolution, helping them create tangible value at all touchpoints.",
         actions: [
             {
                 text: 'Get in Touch',
