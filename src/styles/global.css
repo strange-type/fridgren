@@ -12,20 +12,20 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-    --text-main: #171717;
-    --bg-main: #FAFAFA;
+    --text-main: #292929;
+    --bg-main: #F1ECE8;
     --bg-muted: #f2f1ec;
-    --border-main: #171717;
+    --border-main: #292929;
 }
 
 
 /* Dark mode styles using media query */
 @media (prefers-color-scheme: dark) {
     :root {
-        --text-main: #f5f4f1;
-        --bg-main: #171717;
+        --text-main: #F1ECE8;
+        --bg-main: #292929;
         --bg-muted: #242424;
-        --border-main: #f5f4f1;
+        --border-main: #F1ECE8;
         }
         
 }
