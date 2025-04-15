@@ -9,7 +9,10 @@ const navLinks = siteConfig.headerNavLinks || [];
 <nav class="min-h-10 pt-4 pb-12 relative sm:min-h-14 sm:pb-24 md:pt-8">
     {
         navLinks.length > 0 && (
-            <div class="w-full max-w-3xl mx-auto relative">
+            <div class="w-full max-w-7xl mx-auto relative flex items-center justify-between">
+                <a href="/" aria-label="Home">
+                    <img src="/logo.png" alt="Logo" class="h-12" />
+                </a>
                 <button
                     class="menu-toggle cursor-pointer w-8 h-8 -ml-1 flex items-center justify-center relative z-30 md:hidden"
                     aria-label="Open Menu"
@@ -18,6 +21,7 @@ const navLinks = siteConfig.headerNavLinks || [];
                 >
                     <span class="menu-toggle-icon w-6 h-px relative bg-current" />
                 </button>
+
                 <ul
                     id="menu-items"
                     class="menu flex gap-6 max-md:flex-col max-md:gap-1 max-md:absolute max-md:-top-2.5 max-md:-left-2.5 max-md:max-w-64 max-md:px-3 max-md:pt-16 max-md:pb-10 max-md:z-20 max-md:bg-main max-md:border max-md:border-dashed max-md:border-main"
@@ -25,7 +29,7 @@ const navLinks = siteConfig.headerNavLinks || [];
                     {navLinks.map((link) => (
                         <li class="py-1">
                             <NavLink
-                                class="text-xl font-serif text-main hover:underline hover:underline-offset-2 hover:decoration-1 md:text-base"
+                                class="text-xl font-sans text-main hover:underline hover:underline-offset-2 hover:decoration-1 md:text-base"
                                 href={link.href}
                             >
                                 {link.text}
@@ -48,10 +52,10 @@ const navLinks = siteConfig.headerNavLinks || [];
         }
         .menu.is-visible {
             @apply visible opacity-100;
-            transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+            transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
         }
         .menu-toggle-icon {
-            transition: width 0.1s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
+            transition: width 0.1s cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
         }
         .menu-toggle.is-active .menu-toggle-icon {
             @apply w-0;
@@ -63,7 +67,7 @@ const navLinks = siteConfig.headerNavLinks || [];
             content: '';
             transition:
                 rotate 0.2s cubic-bezier(0.4, 0, 0.2, 1),
-                margin 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+                margin 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
         }
         .menu-toggle-icon:before {
             @apply -mt-1.5;
@@ -75,8 +79,8 @@ const navLinks = siteConfig.headerNavLinks || [];
         .menu-toggle.is-active .menu-toggle-icon:after {
             @apply mt-0;
             transition:
-                margin 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.1s,
-                rotate 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
+                margin 0.1s cubic-bezier(0.4, 0, 0.2, 1) 0.1s,
+                rotate 0.1s cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
         }
         .menu-toggle.is-active .menu-toggle-icon:before {
             @apply rotate-45;

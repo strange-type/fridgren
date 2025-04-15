@@ -1,6 +1,10 @@
 @import '@fontsource-variable/inter' layer(base);
+@import '@fontsource-variable/inter/wght-italic.css' layer(base);
 @import '@fontsource-variable/newsreader' layer(base);
 @import '@fontsource-variable/newsreader/wght-italic.css' layer(base);
+
+
+
 
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
@@ -9,7 +13,7 @@
 
 :root {
     --text-main: #171717;
-    --bg-main: #f5f4f1;
+    --bg-main: #FAFAFA;
     --bg-muted: #f2f1ec;
     --border-main: #171717;
 }
@@ -23,44 +27,13 @@
         --bg-muted: #242424;
         --border-main: #f5f4f1;
         }
+        
 }
 
-
-/* Cyan */
-/*
-:root {
-    --text-main: #162a2b;
-    --bg-main: #d6e0e2;
-    --bg-muted: #ccd8db;
-    --border-main: #162a2b;
-}
-html.dark {
-    --text-main: #d6e0e2;
-    --bg-main: #162a2b;
-    --bg-muted: #1c3537;
-    --border-main: #d6e0e2;
-}
-*/
-
-/* Green */
-/*
-:root {
-    --text-main: #3a4238;
-    --bg-main: #f3efe6;
-    --bg-muted: #eee9dc;
-    --border-main: #3a4238;
-}
-html.dark {
-    --text-main: #f3efe6;
-    --bg-main: #5e6c5b;
-    --bg-muted: #596756;
-    --border-main: #f3efe6;
-}
-*/
 
 @theme inline {
     --font-sans: 'Inter Variable', sans-serif;
-    --font-serif: 'Newsreader Variable', serif;
+    --font-serif: 'Newsreader', serif;
     --text-color-main: var(--text-main);
     --background-color-main: var(--bg-main);
     --background-color-muted: var(--bg-muted);
@@ -89,6 +62,12 @@ html.dark {
     .prose a {
         @apply underline font-normal decoration-1 underline-offset-2 decoration-dashed hover:decoration-solid;
     }
+
+    .bio {
+        font-family: var(--font-alt);
+    }
+
+
 
     .prose :where(h1, h2, h3, h4, h5, h6) {
         @apply font-serif font-medium;

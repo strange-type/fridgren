@@ -41,11 +41,11 @@ export type SiteConfig = {
 const siteConfig: SiteConfig = {
     website: 'https://fridgren.se',
     title: 'Daniel Fridgren',
-    subtitle: 'Father of three. Lateral thinker. Intuition driven. Pattern connector. Strategic Designer at In Wise Company',
+    subtitle: 'Father of three, lateral thinking, intuition driven, pattern connector and strategic Designer at In Wise Company',
     description: 'A personal website showcasing my work and thoughts on design and technology.',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '/site-preview.jpg',
+        alt: 'Fridgren'
     },
     headerNavLinks: [
         {
@@ -53,19 +53,20 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Blog',
-            href: '/blog'
-        },
-    ],
-    footerNavLinks: [
-        {
             text: 'About',
             href: '/about'
+        },
+        {
+            text: 'Blog',
+            href: '/blog'
         },
         {
             text: 'Contact',
             href: '/contact'
         },
+    ],
+    footerNavLinks: [
+
     ],
     socialLinks: [
         {
@@ -73,28 +74,10 @@ const siteConfig: SiteConfig = {
             href: 'https://linkedin.com/in/fridgren'
         },
         {
-            text: 'X/Twitter',
+            text: 'Twitter',
             href: 'https://twitter.com/fridgren'
         }
     ],
-    hero: {
-        image: {
-            src: '/hero.jpg',
-            alt: 'An image of Daniel Fridgren',
-        },
-        text: "I am a creator who provide expertise in areas ranging from digital product processes, strategy and innovation to UX- and service design. Through my consulting studio, I help my clients craft what’s new by mapping, reframing, prototyping and strategic design. By fusing design expertise and life experience with lateral, big-picture thinking, I guide my clients with heart through their digital evolution, helping them create tangible value at all touchpoints.",
-        actions: [
-            {
-                text: 'Get in Touch',
-                href: '/contact'
-            }
-        ]
-    },
-    subscribe: {
-        title: 'Subscribe to my newsletter',
-        text: 'All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
     postsPerPage: 8,
     projectsPerPage: 8
 };

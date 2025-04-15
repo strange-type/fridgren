@@ -4,12 +4,11 @@ seo:
   title: About Me
   description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
   image:
-    src: '/hero.jpg'
+    src: '/hero.png'
     alt: A photo of Daniel Fridgren
 ---
 
-![A photo of Daniel Fridgrene](/hero.jpg)
-
+![A photo of Daniel Fridgren](/hero.png)
 
 ## Fusing two decades of hands-on expertise with lateral thinking and heart.
 
