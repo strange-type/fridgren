@@ -8,8 +8,6 @@ seo:
     alt: A photo of Daniel Fridgren
 ---
 
-![A photo of Daniel Fridgren](/hero.png)
-
 ## Fusing two decades of hands-on expertise with lateral thinking and heart.
 
 I am a creator who provide expertise in areas ranging from digital product processes, strategy and innovation to UX- and service design.
@@ -33,4 +31,4 @@ Just like you - fragmented and imperfect, enough and beautiful - what's being sh
 
 Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat.
 
-_Let's build something amazing together!_
+![A photo of Daniel Fridgren](/hero.png)
