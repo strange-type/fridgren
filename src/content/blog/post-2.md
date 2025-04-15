@@ -1,6 +1,6 @@
 ---
 title: The Fallacy Of Scalability
-In a world obsessed with scalability, we often overlook the profound value of what cannot scale. From human connections to cultural depth, the pursuit of efficiency and growth risks eroding the very foundations of resilience and meaning. What if the most important investments are those that defy the logic of scale?
+excerpt: In a world obsessed with scalability, we often overlook the profound value of what cannot scale. From human connections to cultural depth, the pursuit of efficiency and growth risks eroding the very foundations of resilience and meaning. What if the most important investments are those that defy the logic of scale?
 publishDate: ‘Mar 12 2025'
 tags:
   - Thoughts
