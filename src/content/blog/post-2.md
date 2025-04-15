@@ -1,7 +1,7 @@
 ---
 title: The Fallacy Of Scalability
 excerpt: In a world obsessed with scalability, we often overlook the profound value of what cannot scale. From human connections to cultural depth, the pursuit of efficiency and growth risks eroding the very foundations of resilience and meaning. What if the most important investments are those that defy the logic of scale?
-publishDate: ‘Mar 12 2025'
+publishDate: 'Mar 8 2025'
 tags:
   - Thoughts
 seo:
@@ -9,6 +9,9 @@ seo:
     src: '/garcin-the-shortest-path.jpg'
     alt: Gilbert Garcin, The Shortest Path
 ---
+
+![Gilbert Garcin, The Shortest Path](/garcin-the-shortest-path.jpg)
+
 ## ”Sorry, love the idea, but it doesn’t scale”
 
 I’ve got three children. And in a way, you could say they are the core of my investment portfolio. I invest a lot of time and resources in them. They are lousy business ideas from a scaling viewpoint. There will be no hockey sticks. No 100x returns on investment in regular business terms.
