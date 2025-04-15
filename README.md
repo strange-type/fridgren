@@ -1,4 +1,5 @@
-# My personal website
+# My personal website [Fridgren.se](https://fridgren.se)
+<img width="1200" alt="Fridgren se" src="https://github.com/user-attachments/assets/47c9dc29-014f-4e14-b54a-8be7e95949e5" />
 
 I've build my personal website with the framework [Astro](https://astro.build), reusing some of the structure from the theme Dante by [justgoodui.com](https://justgoodui.com/).
 
