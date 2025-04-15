@@ -41,7 +41,7 @@ export type SiteConfig = {
 const siteConfig: SiteConfig = {
     website: 'https://fridgren.se',
     title: 'Daniel Fridgren',
-    subtitle: 'Father of three, lateral thinking, intuition driven, pattern connector and strategic Designer at In Wise Company',
+    subtitle: 'Father of three, lateral thinking, intuition driven, pattern connector and strategic designer at In Wise Company',
     description: 'A personal website showcasing my work and thoughts on design and technology.',
     image: {
         src: '/site-preview.jpg',
