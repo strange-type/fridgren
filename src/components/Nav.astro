@@ -30,7 +30,7 @@ const navLinks = siteConfig.headerNavLinks || [];
                     {navLinks.map((link) => (
                         <li class="py-1">
                             <NavLink
-                                class="text-xl font-sans text-main hover:underline hover:underline-offset-2 hover:decoration-1 md:text-base"
+                                class="text-xl font-sans text-main hover:underline hover:decoration-[#EF8C3F] md:text-base transition-all duration-300 hover:decoration-wavy hover:underline-offset-4"
                                 href={link.href}
                             >
                                 {link.text}
@@ -104,17 +104,6 @@ const navLinks = siteConfig.headerNavLinks || [];
             menu?.classList.toggle('is-visible');
         });
     }
-    function updateLogoVisibility() {
-        const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        document.getElementById('logo-light').classList.toggle('hidden', isDarkMode);
-        document.getElementById('logo-dark').classList.toggle('hidden', !isDarkMode);
-    }
-
     menuToggle();
-    updateLogoVisibility();
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateLogoVisibility);
-    document.addEventListener('astro:after-swap', () => {
-        menuToggle();
-        updateLogoVisibility();
-    });
+    document.addEventListener('astro:after-swap', menuToggle);
 </script>
