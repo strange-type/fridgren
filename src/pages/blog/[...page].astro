@@ -18,6 +18,30 @@ const { page } = Astro.props;
 const blog = page.data;
 ---
 
+<script>
+    import { gsap } from 'gsap';
+
+    // Trigger GSAP animations on page load
+    const triggerAnimations = () => {
+        gsap.from('.fade-up', {
+            transform: 'translateX(10px)', // Initial position
+            opacity: 0,
+            duration: 1, // Smooth animation duration
+            ease: 'power4.out', // Easing curve for smooth effect
+            stagger: 0.15 // Staggered animation for multiple elements
+        });
+    };
+
+    // Initialize animations
+    const initializeAnimations = () => {
+        gsap.killTweensOf('.fade-up'); // Clear any ongoing animations
+        triggerAnimations(); // Start animations
+    };
+
+    // Trigger animations on initial page load
+    window.addEventListener('load', initializeAnimations);
+</script>
+
 <BaseLayout
     title="Blog"
     description="Embark on a journey of personal insights and experiences through my blog"
@@ -25,9 +49,9 @@ const blog = page.data;
     showHeader={false}
 >
     <div class="text-left sm:max-w-3xl">
-        <h1 class="text-4xl leading-tight sm:text-5xl sm:leading-tight">Blog Archive</h1>
+        <h1 class="text-4xl leading-tight sm:text-5xl sm:leading-tight fade-up">Blog Archive</h1>
         <div class="my-8"></div>
-        {blog.map((post) => <PostPreview post={post} class="mb-10 sm:mb-12" />)}
+        {blog.map((post) => <PostPreview post={post} class="mb-10 sm:mb-12 fade-up" />)}
         <Pagination page={page} class="my-16 sm:my-24" />
     </div>
 

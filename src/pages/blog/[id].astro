@@ -29,10 +29,37 @@ const { title, publishDate, updatedDate, excerpt, seo } = post.data;
 const { Content } = await render(post);
 ---
 
+<script>
+    import { gsap } from 'gsap';
+
+    // Trigger GSAP animations on page load
+    const triggerAnimations = () => {
+        gsap.from('.fade-up', {
+            transform: 'translateX(10px)', // Initial position
+            opacity: 0,
+            duration: 1, // Smooth animation duration
+            ease: 'power4.out', // Easing curve for smooth effect
+            stagger: 0.15 // Staggered animation for multiple elements
+        });
+    };
+
+    // Initialize animations
+    const initializeAnimations = () => {
+        gsap.killTweensOf('.fade-up'); // Clear any ongoing animations
+        triggerAnimations(); // Start animations
+    };
+
+    // Trigger animations on initial page load
+    window.addEventListener('load', initializeAnimations);
+
+    // Trigger animations after Astro swaps content during navigation
+    document.addEventListener('astro:after-swap', initializeAnimations);
+</script>
+
 <BaseLayout title={seo?.title ?? title} description={seo?.description ?? excerpt} image={seo?.image} pageType="article" showHeader={false}>
     <article class="sm:max-w-3xl mb-16 sm:mb-24">
         <header class="mb-8">
-            <h1 class="text-4xl leading-tight sm:text-5xl sm:leading-tight">{title}</h1>
+            <h1 class="text-4xl leading-tight sm:text-5xl sm:leading-tight fade-up">{title}</h1>
             <div class="mt-4 text-sm">
                 <FormattedDate date={publishDate} />
                 {
@@ -47,7 +74,7 @@ const { Content } = await render(post);
                 }
             </div>
         </header>
-        <div class="max-w-none prose sm:prose-lg">
+        <div class="max-w-none prose sm:prose-lg fade up">
             <Content />
         </div>
         <!--

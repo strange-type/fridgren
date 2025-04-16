@@ -1,9 +1,29 @@
----
+<script>
+    import { gsap } from 'gsap';
 
----
+    // Trigger GSAP animations on page load
+    const triggerAnimations = () => {
+        gsap.from('.fade-up', {
+            transform: 'translateX(10px)', // Initial position
+            opacity: 0,
+            duration: 1, // Smooth animation duration
+            ease: 'power4.out', // Easing curve for smooth effect
+            stagger: 0.15 // Staggered animation for multiple elements
+        });
+    };
+
+    // Initialize animations
+    const initializeAnimations = () => {
+        gsap.killTweensOf('.fade-up'); // Clear any ongoing animations
+        triggerAnimations(); // Start animations
+    };
+
+    // Trigger animations on initial page load
+    window.addEventListener('load', initializeAnimations);
+</script>
 
 <section class="text-left sm:max-w-3xl">
-    <h1 class="text-4xl leading-tight sm:text-5xl sm:leading-tight">
+    <h1 class="text-4xl leading-tight sm:text-5xl sm:leading-tight fade-up">
         <em style="font-weight: bold; font-style: normal; color: #212121; background-color: #3FEFE3;">Hi, I'm Daniel</em>. I'm a father*3, lateral thinker and
         designer in
         <a
@@ -13,16 +33,18 @@
             rel="noopener noreferrer">Malmö, Sweden.</a
         >
     </h1>
-    <div class="my-8"></div>
-    <div class="max-w-prose text-xl sm:text-2xl leading-normal">
-        I'm currently a freelancing strategic designer, providing expertise in areas ranging from digital product processes, strategy and innovation to UX- and
-        service design. On this site, I share my own thoughts and ideas.
+    <div class="my-8 fade-up">
+        <div class="max-w-prose text-xl sm:text-2xl leading-normal">
+            I'm currently a freelancing strategic designer, providing expertise in areas ranging from digital product processes, strategy and innovation to UX-
+            and service design. On this site, I share my own thoughts and ideas.
+        </div>
     </div>
-    <div class="my-10"></div>
-    <a
-        href="/about"
-        class="cursor-pointer group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md border bg-[#FDCEBE] px-6 font-medium text-[#212121] transition-all duration-100 [box-shadow:5px_5px_rgb(82_82_82)] active:translate-x-[3px] active:translate-y-[3px] active:[box-shadow:0px_0px_rgb(82_82_82)] hover:bg-white hover:scale-103 hover:transition-[background,transform] hover:ease-ease hover:duration-200"
-    >
-        Learn more
-    </a>
+    <div class="my-10 fade-up">
+        <a
+            href="/about"
+            class="cursor-pointer group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md border bg-[#FDCEBE] px-6 font-medium text-[#212121] transition-all duration-100 [box-shadow:5px_5px_rgb(82_82_82)] active:translate-x-[3px] active:translate-y-[3px] active:[box-shadow:0px_0px_rgb(82_82_82)] hover:bg-white hover:scale-103 hover:transition-[background,transform] hover:ease-ease hover:duration-200"
+        >
+            Learn more
+        </a>
+    </div>
 </section>
