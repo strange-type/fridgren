@@ -26,6 +26,9 @@ importers:
       '@fontsource-variable/playfair-display':
         specifier: ^5.2.5
         version: 5.2.5
+      '@fontsource-variable/outfit':
+        specifier: ^5.2.5
+        version: 5.2.5
       '@fontsource/geist':
         specifier: ^5.2.5
         version: 5.2.5
